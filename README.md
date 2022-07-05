@@ -5,14 +5,16 @@ A toy repo to test the AMD Random Number Generator Library
 
 ### Contents
 
-1. `rand_r_omp.c`: standard RNG from C standard library (for reference)
-2. AMD single-precision uniform random distribution
-   a. `sleap_omp.c`: multiple streams with leap frogging
-   b. `sskip_omp.c`: multiple streams with block skipping
+1. `rand_r_omp.c`: standard RNG from C standard library (for reference)  
+2. AMD single-precision uniform random distribution  
+   a. `sleap_omp.c`: multiple streams with leap frogging  
+   b. `sskip_omp.c`: multiple streams with block skipping  
 
 ### Pre-requisite
 
 Download the AMD Random Number Generator Library from: https://developer.amd.com/amd-aocl/rng-library
+
+Old documentation at: https://developer.amd.com/wp-content/resources/AMD%20Random%20Number%20Generator%20-%20User%20Guide%202.0.pdf
 
 
 ### Build
