@@ -26,7 +26,7 @@ export CPATH="$(pwd)/include:$CPATH"
  
 CC -fopenmp -O3 -o rand_r_omp.x rand_r_omp.c 
 
-export AMDRNG_DIR="<path to AMD RNG installation"
+export AMDRNG_DIR="<path to AMD RNG installation>"
 
 export CPATH="$AMDRNG_DIR/rng/include:$CPATH"
 export LIBRARY_PATH="$AMDRNG_DIR/rng/lib:$LIBRARY_PATH"
